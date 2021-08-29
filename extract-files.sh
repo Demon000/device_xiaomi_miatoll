@@ -14,8 +14,8 @@ fi
 set -e
 
 # Required!
-export DEVICE=miatoll
-export DEVICE_COMMON=sm6250-common
+export DEVICE=venus
+export DEVICE_COMMON=sm8350-common
 export VENDOR=xiaomi
 
 export DEVICE_BRINGUP_YEAR=2020

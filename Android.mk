@@ -15,6 +15,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),miatoll)
+ifeq ($(TARGET_DEVICE),venus)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

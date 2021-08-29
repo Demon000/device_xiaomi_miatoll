@@ -15,7 +15,7 @@
 //
 
 cc_library_static {
-    name: "libinit_miatoll",
+    name: "libinit_venus",
     recovery_available: true,
     srcs: [
         "init.cpp"
@@ -25,6 +25,6 @@ cc_library_static {
         "system/core/init"
     ],
     whole_static_libs: [
-        "libinit_xiaomi_sm6250_common"
+        "libinit_xiaomi_sm8350_common"
     ]
 }
