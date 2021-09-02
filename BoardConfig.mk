@@ -15,11 +15,5 @@ DEVICE_PATH := device/xiaomi/venus
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := venus
 
-# HIDL
-ODM_MANIFEST_SKUS += \
-    venus
-
-ODM_MANIFEST_VENUS_FILES := $(DEVICE_PATH)/manifest_venus.xml
-
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := venus
